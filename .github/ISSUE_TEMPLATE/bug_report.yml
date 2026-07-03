@@ -1,0 +1,44 @@
+name: 🐛 버그 리포트
+description: 동작하지 않는 문제를 신고합니다
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 일어났나요?
+      description: 버그 증상을 설명해주세요
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 방법
+      description: 어떤 순서로 하면 재현되나요?
+      placeholder: |
+        1. ...
+        2. ...
+        3. 오류 발생
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 영역
+      options:
+        - frontend (앱)
+        - backend (서버)
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: 환경 (선택)
+      description: OS, 기기, 버전 등

@@ -1,0 +1,45 @@
+name: ✨ 기능 / 작업
+description: 새 기능이나 작업 항목을 등록합니다
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 목표
+      description: 무엇을 만들거나 바꾸려 하나요?
+    validations:
+      required: true
+  - type: dropdown
+    id: sprint
+    attributes:
+      label: 스프린트
+      options:
+        - "Sprint 0 · 초기 세팅"
+        - "Sprint 1 · 디자인 토큰 & 모드 토글"
+        - "Sprint 2 · 카트 연결"
+        - "Sprint 3 · 장바구니 (SSE)"
+        - "Sprint 4 · 결제 확인/완료"
+        - "Sprint 5 · 매장 길 안내"
+        - "Sprint 6 · 통합/마감"
+        - "미정"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 영역
+      options:
+        - frontend (앱)
+        - backend (서버)
+        - 공통/설정
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 완료 기준
+      description: 무엇이 되면 완료인가요?
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
