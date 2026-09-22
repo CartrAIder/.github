@@ -284,14 +284,13 @@ Nginx · Spring Boot · Mosquitto · MySQL · Redis · MinIO를 한 호스트에
 
 **팀 카트라이더** — 인천대학교 창의공학설계 · 지도교수 컴퓨터공학부 이장호 교수님
 
-김도영 · 김준성 · 박서현 · 박찬혁 · 백수연 · 이현서 · 최수환 · 최지환 · 홍승혁
-
-| 파트 | 담당 |
-|---|---|
-| 하드웨어 — 카트 모듈 · 출구 게이트 | 전자공학부 파트 |
-| AI — 상품 인식 · 검수 파이프라인 | [`cartAider_ai_server`](https://github.com/CartrAIder/cartAider_ai_server) |
-| 백엔드 — 서버 · DB · 결제 연동 | [`quickPass`](https://github.com/CartrAIder/quickPass) |
-| 프론트엔드 — 앱 · 관리자 화면 | [`frontend`](https://github.com/CartrAIder/frontend) · 최수환, 김도영 |
+| 파트 | 담당 | 저장소 |
+|---|---|---|
+| **프론트엔드** — 앱 · 관리자 화면 | 김도영 [@kimdoyoung1110](https://github.com/kimdoyoung1110) · 최수환 | [`frontend`](https://github.com/CartrAIder/frontend) |
+| **백엔드** — 서버 · DB · 결제 연동 | 최지환 [@greenpig759](https://github.com/greenpig759) | [`quickPass`](https://github.com/CartrAIder/quickPass) |
+| **AI** — 상품 인식 · 검수 파이프라인 | 홍승혁 [@snwfld00](https://github.com/snwfld00) | [`cartAider_ai_server`](https://github.com/CartrAIder/cartAider_ai_server) |
+| **하드웨어** — 카트 모듈 · 출구 게이트 | 김준성 [@newplayerkim](https://github.com/newplayerkim) · 박찬혁 [@chanhyuk282](https://github.com/chanhyuk282) · 백수연 · 이현서 [@mrlee1009](https://github.com/mrlee1009) | — |
+| **보조** | 박서현 [@shpark0305](https://github.com/shpark0305) | — |
 
 <div align="center">
 <br />
