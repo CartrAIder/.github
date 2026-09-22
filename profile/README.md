@@ -35,7 +35,7 @@
 <div align="center">
 <br />
 
-### ▶ [전체 시연 영상 보기 (3분)](https://github.com/CartrAIder/.github/blob/main/profile/media/demo-full.mp4)
+### ▶ [전체 시연 영상 내려받기 — mp4 · 3분](https://github.com/CartrAIder/.github/raw/main/profile/media/demo-full.mp4)
 
 <sub>문제 제기 → 솔루션 → 아키텍처 → 실물 시연 → 결제까지</sub>
 
